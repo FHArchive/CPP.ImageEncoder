@@ -1,0 +1,4 @@
+﻿  Source.cpp
+h:\visual studio 2017\projects\cpp.imageencoder\cpp.imageencoder\source.cpp(208): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  CPP.ImageEncoder.vcxproj -> H:\Visual Studio 2017\Projects\CPP.ImageEncoder\Debug\CPP.ImageEncoder.exe
+  CPP.ImageEncoder.vcxproj -> H:\Visual Studio 2017\Projects\CPP.ImageEncoder\Debug\CPP.ImageEncoder.pdb (Partial PDB)

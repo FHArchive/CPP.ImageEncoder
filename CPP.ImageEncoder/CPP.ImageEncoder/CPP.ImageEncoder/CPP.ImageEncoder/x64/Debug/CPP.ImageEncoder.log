@@ -1,0 +1,5 @@
+﻿  Source.cpp
+h:\visual studio 2017\projects\cpp.imageencoder\cpp.imageencoder\source.cpp(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+h:\visual studio 2017\projects\cpp.imageencoder\cpp.imageencoder\source.cpp(208): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  CPP.ImageEncoder.vcxproj -> H:\Visual Studio 2017\Projects\CPP.ImageEncoder\x64\Debug\CPP.ImageEncoder.exe
+  CPP.ImageEncoder.vcxproj -> H:\Visual Studio 2017\Projects\CPP.ImageEncoder\x64\Debug\CPP.ImageEncoder.pdb (Partial PDB)
