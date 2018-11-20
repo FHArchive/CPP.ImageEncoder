@@ -1,0 +1,3 @@
+﻿  Source.cpp
+h:\visual studio 2017\projects\cpp.imageencoder\cpp.imageencoder\source.cpp(207): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+LINK : fatal error LNK1168: cannot open H:\Visual Studio 2017\Projects\CPP.ImageEncoder\Debug\CPP.ImageEncoder.exe for writing

@@ -1,0 +1,7 @@
+﻿  Source.cpp
+Source.cpp(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Source.cpp(208): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+  Generating code
+  All 139 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CPP.ImageEncoder.vcxproj -> H:\Visual Studio 2017\Projects\CPP.ImageEncoder\x64\Release\CPP.ImageEncoder.exe
