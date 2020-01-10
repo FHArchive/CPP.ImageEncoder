@@ -1,21 +1,21 @@
 # CPP.ImageEncoder
 This program encodes text in a bitmap image (.bmp). It works by using LSB  steganography which is the process of modifying the least significant bit  of a pixel to store part of a character. 
-# Language information 
+## Language information 
 This program is written in C++ using Visual Studio Community Edition 2017 on Windows 10. To install this IDE, go to https://visualstudio.microsoft.com/ 
-# How to run 
-## Method 1 
+## How to run 
+### Method 1 
 1. Download or clone this GitHub repository 
 2. (If downloaded) Extract the zip archive
 3. Open the project by going to File> Open> Project/Solution 
 4. Run the program by pressing the green play button or with F5
-## Method 2
+### Method 2
 1. Download or clone this GitHub repository 
 2. (If downloaded) Extract the zip archive
 3. Go to bin> Debug
 4. Double click the .exe file (note that windows will ask if you want to run the file – only run executables that you trust)
 
 
-# Define application constants
+## Define application constants
 The default values for kHeaderSize, kFooterSize and kMaxSecretLen are 1024. This can be changed with minimal impact on the program
 
 - kHeaderSize
@@ -30,38 +30,38 @@ This was included to stop the python version crashing. Though it has the added b
 - kCleanImageName
 I've done an MD5 hash of "CLEAN" and appended it to the filename to reduce the chance of overwriting an important file
 
-# Functions 
+## Functions 
 Read image file in 
-```
+```cpp
 FILE* ReadImg(std::string image_name)
 ```
 Write image file  
-```
+```cpp
 FILE* WriteImg(std::string image_name) 
 ```
 Get the size of the image in bytes to prevent overwriting footer
-```
+```cpp
 int GetSize(std::string image_name) 
 ```
 Replace the least significant bit with a 0 
-```
+```cpp
 int WriteCleanImg(std::string input_image_name, std::string output_image_name)
 ```
 Write a secret message to the image 
-```
+```cpp
 int WriteEncodedImg(std::string input_image_name, std::string output_image_name,
 	std::string secret_msg)
 ```
 Read the encoded image 
-```
+```cpp
 int ReadEncodedImg(std::string input_image_name) 
 ```
 The CLI
-```
+```cpp
 int Cli()
 ```
 
-# Using the GUI 
+## Using the CLI 
 "Clean, Encode, Clean and Encode (.bmp only), Decode or Quit? (C, e, a, d, q)"
 
 - Entering 'c' will clean an image (specified by its path)
