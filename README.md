@@ -1,22 +1,21 @@
+<p float="left">
+<a href="../../"><img src="https://img.shields.io/github/languages/top/FredHappyface/CPP.ImageEncoder.svg?style=flat-square" alt="Github top language"></a>
+<a href="https://www.codacy.com/manual/FredHappyface/CPP.ImageEncoder"><img src="https://img.shields.io/codacy/grade/d82e81ee345a4c74b42fd9f8b4f00e64.svg?style=flat-square" alt="Codacy grade"></a>
+<a href="https://www.codacy.com/manual/FredHappyface/CPP.ImageEncoder"><img src="https://img.shields.io/codacy/coverage/d82e81ee345a4c74b42fd9f8b4f00e64.svg?style=flat-square" alt="Codacy coverage"></a>
+<a href="../../"><img src="https://img.shields.io/github/repo-size/FredHappyface/CPP.ImageEncoder.svg?style=flat-square" alt="Repository size"></a>
+<a href="../../issues"><img src="https://img.shields.io/github/issues/FredHappyface/CPP.ImageEncoder.svg?style=flat-square" alt="Issues"></a>
+<a href="/LICENSE.md"><img src="https://img.shields.io/github/license/FredHappyface/CPP.ImageEncoder.svg?style=flat-square" alt="License"></a>
+<a href="../../commits/master"><img src="https://img.shields.io/github/commit-activity/m/FredHappyface/CPP.ImageEncoder.svg?style=flat-square" alt="Commit activity"></a>
+<a href="../../commits/master"><img src="https://img.shields.io/github/last-commit/FredHappyface/CPP.ImageEncoder.svg?style=flat-square" alt="Last commit"></a>
+</p>
+
 # CPP.ImageEncoder
+
+<img src="readme-assets/icons/name.png" alt="Project Icon" width="750">
+
 This program encodes text in a bitmap image (.bmp). It works by using LSB
 steganography which is the process of modifying the least significant bit
 of a pixel to store part of a character.
-## Language information
-This program is written in C++ using Visual Studio Community Edition 2017
-on Windows 10. To install this IDE, go to https://visualstudio.microsoft.com/
-## How to run
-### Method 1
-1. Download or clone this GitHub repository
-2. (If downloaded) Extract the zip archive
-3. Open the project by going to File> Open> Project/Solution
-4. Run the program by pressing the green play button or with F5
-### Method 2
-1. Download or clone this GitHub repository
-2. (If downloaded) Extract the zip archive
-3. Go to bin> Debug
-4. Double click the .exe file (note that windows will ask if you want to
-run the file – only run executables that you trust)
 
 
 ## Define application constants
@@ -100,3 +99,56 @@ the path of an output image
 
 - If the user selected Encode, or Clean and Encode. Enter a message
 for the program to encode in the image
+
+
+## Language information
+This program is written in C++ using Visual Studio Community Edition 2017
+on Windows 10. To install this IDE, go to https://visualstudio.microsoft.com/
+## How to run
+### Method 1
+1. Download or clone this GitHub repository
+2. (If downloaded) Extract the zip archive
+3. Open the project by going to File> Open> Project/Solution
+4. Run the program by pressing the green play button or with F5
+### Method 2
+1. Download or clone this GitHub repository
+2. (If downloaded) Extract the zip archive
+3. Go to bin> Debug
+4. Double click the .exe file (note that windows will ask if you want to
+run the file – only run executables that you trust)
+
+
+## Download
+### Clone
+#### Using The Command Line
+1. Press the Clone or download button in the top right
+2. Copy the URL (link)
+3. Open the command line and change directory to where you wish to
+clone to
+4. Type 'git clone' followed by URL in step 2
+```bash
+$ git clone https://github.com/FredHappyface/CPP.ImageEncoder
+```
+
+More information can be found at
+<https://help.github.com/en/articles/cloning-a-repository>
+
+#### Using GitHub Desktop
+1. Press the Clone or download button in the top right
+2. Click open in desktop
+3. Choose the path for where you want and click Clone
+
+More information can be found at
+<https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop>
+
+### Download Zip File
+
+1. Download this GitHub repository
+2. Extract the zip archive
+3. Copy/ move to the desired location
+
+
+## Licence
+MIT License
+Copyright (c) FredHappyface
+(See the [LICENSE](/LICENSE.md) for more information.)
